@@ -1,5 +1,6 @@
 # Secure-VNET-Lab
 This project demonstrates setting up a secure Azure Virtual Network with subnets and Network Security Groups
+<<<<<<< HEAD
 # Azure Virtual Network (VNET) Setup Lab
 
 This project demonstrates the configuration of a secure Azure Virtual Network (VNET) with three subnets and a Network Security Group (NSG). The VNET isolates the Dev department from other cloud resources, and subnets allow for logical segmentation of resources.
@@ -102,3 +103,5 @@ az network nsg create --resource-group DevDept-rg --name database-secgrp --locat
 # Associate NSG to subnet-a
 az network vnet subnet update --vnet-name DevDept-vnet --name subnet-a --resource-group DevDept-rg --network-security-group database-secgrp
 
+=======
+>>>>>>> saved-commits
